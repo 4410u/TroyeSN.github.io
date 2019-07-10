@@ -5,76 +5,77 @@
 <title>映画『Spiderman-Far-From-Home』</title>
 <style type="text/css">
 
-	header {
+header {
 	height: 65px;
-		width:100%;
-                background-color: rgba(34,49,52,0.9);
+	width:100%;
+        background-color: rgba(34,49,52,0.9);
 	}
 	
-  li {
-  flaot: left;
-  list-style: none;
-  opacity: 0.7;
-  } 
+ li {
+  	flaot: left;
+  	list-style: none;
+  	opacity: 0.7;
+  	} 
   
-  top {	
-  font-size: 50px ;
-  padding: 40px 0;
-  color: rgb(209,209,209);
-  font-family:メイリオ;
-  background-color: white;
-  }
+ top {	
+ 	font-size: 50px ;
+ 	padding: 40px 0;
+ 	color: rgb(209,209,209);
+ 	font-family:メイリオ;
+ 	background-color: white;
+  	}
 
-	.title1{
+.title1 {
 	z-index:1;
 	}
-  .title2  {
-  z-index:-;
-  writing-mode: vertical-rl;
-  float: right;
-  }
-
-  .main {
-  margin:69px auto;
-  font-size: 34px;
-  color: rgb(209,209,209);
-  }
-
-  .story1 {
-  rgba(255,255,255,0.7);
-  font-size: 20px;
-  text-indent: 5px ;
-  background-color: blue;
-  }
-
-  .story2 {
-  margin:20px auto;
-  color: rgba(99,235,56,0.7);
-  font-size: 20px;
-  background-color: black;
-  opacity: 0.5;
-  border:ridge rgb(177,160,35) 10px;
-  text-indent:25px;
-
-  }
-
-  .story2:hover {
-  background-color: white;
-  color: rgb (243,78,77);
-  }
-
-  body {
-  /*background-image: url("https://spice.eplus.jp/images/XJvOIxYSl58MdaD0d8K6aaWT3ljYq3ukPbgLpSlyxDs5pkwzvLbXvOGsJqjmmdeq/");
-  background-repeat: no-repeat;*/
-  background-color: white;
-  font-size:20px;
-  }
-
-  .spa {}
-
-  .story3 {color: black; background: rgb(255,255,255); opacity}
 	
-	img {
+.title2  {
+	z-index:-1;
+	writing-mode: vertical-rl;
+	float: right;
+  	}
+
+.int {
+  	margin:69px auto;
+  	font-size: 34px;
+	color: rgb(209,209,209);
+  	}
+
+.story1 {
+  	margin:20px auto;
+  	color: rgba(99,235,56,0.7);
+  	font-size: 20px;
+  	background-color: black;
+  	opacity: 0.5;
+  	border:ridge rgb(177,160,35) 10px;
+  	text-indent:25px;
+	}
+
+.story1:hover {
+  	background-color: white;
+  	color: rgb (243,78,77);
+  	}
+
+.story2 {
+  	rgba(255,255,255,0.7);
+  	font-size: 20px;
+  	text-indent: 5px ;
+  	background-color: blue;
+  	}
+body 	{
+  	/*background-image: url("https://spice.eplus.jp/images/XJvOIxYSl58MdaD0d8K6aaWT3ljYq3ukPbgLpSlyxDs5pkwzvLbXvOGsJqjmmdeq/");
+  	background-repeat: no-repeat;*/
+  	background-color: white;
+  	font-size:20px;
+  	}
+
+.story3 {
+	color: black;
+	background: rgb(255,255,255);
+	opacity
+	}
+	
+img 	{
 	width:30%;
 	height:30%;
 	}
@@ -82,44 +83,39 @@
 </style>
 </head>
 <body>
-  <header>
-        
-            <ul class="header-list">
-                <li><a href="https://marvel.disney.co.jp" class="hasLocalNav"><span>ホーム</span></a></li>
-                <li><a href="/news.html" class="hasLocalNav"><span>ニュース</span></a></li>
-                <li><a href="/character.html" class="hasLocalNav"><span>キャラクター</span></a></li>
-                <li><a href="/movie.html" class="hasLocalNav"><span>映画・DVD</span></a></li>
-                <li><a href="/tv.html" class="hasLocalNav"><span>テレビ</span></a></li>
-                <li><a href="/products.html" class="hasLocalNav"><span>ショッピング</span></a></li>
-                <li><a href="https://www.disney.co.jp/deluxe.html" target="_blank" class="hasLocalNav"><span>Disney DELUXE</span></a></li>
-            </ul>
+	<header>
+        	<ul class="header-list">
+                	<li><a href="https://marvel.disney.co.jp" class="hasLocalNav"><span>ホーム</span></a></li>
+                	<li><a href="/news.html" class="hasLocalNav"><span>ニュース</span></a></li>
+                	<li><a href="/character.html" class="hasLocalNav"><span>キャラクター</span></a></li>
+                	<li><a href="/movie.html" class="hasLocalNav"><span>映画・DVD</span></a></li>
+                	<li><a href="/tv.html" class="hasLocalNav"><span>テレビ</span></a></li>
+                	<li><a href="/products.html" class="hasLocalNav"><span>ショッピング</span></a></li>
+                	<li><a href="https://www.disney.co.jp/deluxe.html" target="_blank" class="hasLocalNav"><span>Disney DELUXE</span></a></li>
+            	</ul>
        
-    <header>
-   <main>
-<div class="strHeader" role="banner">
-    <div class="headerInner">
-        <input type="checkbox" id="headerSearchControl">
-        <div class="headerSearch" role="search">
-            <form action="/find_search_marvel/" method="get">
-                <input type="hidden" name="section" value="marvel_d">
-                <div><input type="text" class="inputSearch" placeholder="サイト内で検索" name="q" value="" title="サイト内検索"></div>
-                <input type="submit" value="検索">
-            </form>
+    	<header>
+<main>
+	<div class="strHeader" role="banner">
+    		<div class="headerInner">
+        		<input type="checkbox" id="headerSearchControl">
+        		<div class="headerSearch" role="search">
+            			<form action="/find_search_marvel/" method="get">
+                			<input type="hidden" name="section" value="marvel_d">
+                			<div><input type="text" class="inputSearch" placeholder="サイト内で検索" name="q" value="" title="サイト内検索"></div>
+                			<input type="submit" value="検索">
+           			</form>
+        		</div>
+        	<div class="headerSearchSwitch">
+            	<label for="headerSearchControl">検索する</label>
         </div>
 
-        <div class="headerSearchSwitch">
-            <label for="headerSearchControl">検索する</label>
-        </div>
-
-    </div>
-</div>
   <top>
-    <div class="title1">アベンジャーズ最後の戦いの後、</div>
-    <div class="title2"> 異次元の扉が開かれた世界───</div>
-    </top>
+   	<div class="title1">アベンジャーズ最後の戦いの後、</div>
+    	<div class="title2"> 異次元の扉が開かれた世界───</div>
+  </top>
 
-	<div class="story1"></div>
-	<div class="story2">師であるアイアンマンことトニー・スタークから託された、ヒーローとしての責任。ピーター・パーカー（トム・ホランド）は、悲しみを忘れ去る為、街の平和に努めていた。そしてようやく訪れた夏休み。ピーターは、大好きなMJ（ゼンデイヤ）、親友のネッド（ジェイコブ・バタロン）達と共に楽しみにしていたヨーロッパ旅行に出かけた。 この旅でMJに自分の気持ちを打ち明け、最高の夏休みにしたいと願うピーターを待っていたもの、それは元S.H.I.E.L.D長官のニック・フューリー（サミュエル・L・ジャクソン）だった。
+	<div class="story1">師であるアイアンマンことトニー・スタークから託された、ヒーローとしての責任。ピーター・パーカー（トム・ホランド）は、悲しみを忘れ去る為、街の平和に努めていた。そしてようやく訪れた夏休み。ピーターは、大好きなMJ（ゼンデイヤ）、親友のネッド（ジェイコブ・バタロン）達と共に楽しみにしていたヨーロッパ旅行に出かけた。 この旅でMJに自分の気持ちを打ち明け、最高の夏休みにしたいと願うピーターを待っていたもの、それは元S.H.I.E.L.D長官のニック・フューリー（サミュエル・L・ジャクソン）だった。
 		迫りくる新たなる脅威を察したニックは、異次元から来たというミステリオ（ジェイク・ギレンホール）と共に既に戦う準備を始めていた。そこにスパイダーマンの力も必要としていたのだ。楽しみにしていたヨーロッパ旅行に出かける。突如としてヴェネチアに出現した巨大な人型の“水”。その圧倒的なパワーに翻弄されるピーターは「ソーは? キャプテン・マーベルは?」とアベンジャーズのヒーローたちに助けを求めるも、彼らは不在。
 		この巨大な敵を相手にまだ戦い方すら掴めないスパイダーマンに替わり、果敢に戦いを挑むミステリオ。空中で両手から強力な光線を放ち、敵を制する。ここに新ヒーローが誕生した。突如としてヴェネチアに出現した巨大な人型の“水”。その圧倒的なパワーに翻弄されるピーターは「ソーは? キャプテン・マーベルは?」とアベンジャーズのヒーローたちに助けを求めるも、彼らは不在。
 		この巨大な敵を相手にまだ戦い方すら掴めないスパイダーマンに替わり、果敢に戦いを挑むミステリオ。空中で両手から強力な光線を放ち、敵を制する。ここに新ヒーローが誕生した。 ヴェネチア以外でも、“火”や“土”の巨大な敵が現れ、ニックを中心とした攻防戦が続く中、ピーターは決意する、「世界には新しいアイアンマンが必要だ」。トニーから引き継いだ“鉄の意志”。
@@ -127,17 +123,12 @@
 		スパイダーマンとして活躍する、16歳の高校生。ヒーローの師ともいうべきアイアンマン＝トニー・スタークに導かれ、NYで活動する“親愛なる隣人”から、真のヒーローを目指す。アベンジャーズの一員になることに憧れを抱いてきたが、本作では“鉄の意志”を引き継ぎ、闘うことを決意する。
 	</div>
 	
-	<div class="story3">元S.H.I.E.L.Dの長官で、アベンジャーズを統率。ヨーロッパ各地に突如現れた脅威を前に、夏休みを満喫中のピーターに共に戦うことを要請する。アベンジャーズ最後の戦いの後、別世界の扉が開いたことで異次元から現れた。球状のガラス製シールドを被り、緑の光線を操るなど、ニック・フューリーの下でピーターと共闘する。かつてトニーをサポートしていたが、今はピーターをテクニカル面のみならずメンタル面でも支える。
+	<div class="story2">元S.H.I.E.L.Dの長官で、アベンジャーズを統率。ヨーロッパ各地に突如現れた脅威を前に、夏休みを満喫中のピーターに共に戦うことを要請する。アベンジャーズ最後の戦いの後、別世界の扉が開いたことで異次元から現れた。球状のガラス製シールドを被り、緑の光線を操るなど、ニック・フューリーの下でピーターと共闘する。かつてトニーをサポートしていたが、今はピーターをテクニカル面のみならずメンタル面でも支える。
 		
 	</div>
 	
-	<div class="story4"></div>
-	<div class="story5"></div>
-	<div></div>
-	<div class="story6"></div>
-	<div></div>
 	
- 	<div class="main">主演は
+ 	<div class="int">主演は
   		<a href="https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A0%E3%83%BB%E3%83%9B%E3%83%A9%E3%83%B3%E3%83%89_(%E4%BF%B3%E5%84%AA)">Tom Holland</a>。
 	</div>
 	
